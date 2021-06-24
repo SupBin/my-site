@@ -1,11 +1,12 @@
 <!--
  * @Author: your name
- * @Date: 2021-04-04 09:34:38
- * @LastEditTime: 2021-06-08 21:04:15
+ * @Date: 2021-06-08 20:45:39
+ * @LastEditTime: 2021-06-08 20:54:39
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: \my-site\src\App.vue
+ * @FilePath: \my-site\src\components\Pager\test.vue
 -->
+
 
 <template>
   <div id="app"> 
@@ -14,10 +15,8 @@
 </template>
 
 <script>
-import Pager from '@/components/Pager'
-
+import Pager from './index.vue'
 export default {
-  // name: 'App',
   components: {
     Pager
   },
@@ -34,4 +33,5 @@ export default {
   }
 }
 </script>
+
 

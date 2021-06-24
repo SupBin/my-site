@@ -4,7 +4,12 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "test:Pager":"vue serve ./src/components/Pager/test.vue",
+    "test:Avatar":"vue serve ./src/components/Avatar/test.vue",
+    "test:Icon":"vue serve ./src/components/Icon/test.vue",
+    "test:Empty":"vue serve ./src/components/Empty/test.vue",
+    "test:ImageLoader":"vue serve ./src/components/ImageLoader/test.vue"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -13,6 +18,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
+    "less": "^4.1.1",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
