@@ -2,7 +2,7 @@ module.exports = {
   devServer: {
     proxy: {
       '/api': {
-        target: '<url>',
+        target: 'http://test.my-site.com',
       },
     }
   }
